@@ -24,8 +24,8 @@
 
 ## 📈 Моя статистика на GitHub
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Uzalov-Gamid&layout=compact&theme=radical)](https://github.com/ТВОЙ_ЛОГИН)
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Uzalov-Gamid&show_icons=true&theme=radical)](https://github.com/ТВОЙ_ЛОГИН)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Uzalov-Gamid&layout=compact&theme=radical)](https://github.com/Uzalov-Gamid)
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Uzalov-Gamid&show_icons=true&theme=radical)](https://github.com/Uzalov-Gamid)
 
 ---
 
