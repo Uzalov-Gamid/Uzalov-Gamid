@@ -1,6 +1,6 @@
-# Привет, я [Твоё Имя]! 👋
+# Привет, я Узалов Гамид! 👋
 
-📍 Живу в [Город, Страна]  
+📍 Живу в Москве  
 🎓 [Твоё образование или специальность, например: студент(ка) по направлению "Программная инженерия"]  
 💼 [Твоя должность или цель, например: Frontend-разработчик | Учусь делать крутые веб-приложения]  
 📧 [Твой email, например: example@mail.com]  
@@ -24,8 +24,8 @@
 
 ## 📈 Моя статистика на GitHub
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ТВОЙ_ЛОГИН&layout=compact&theme=radical)](https://github.com/ТВОЙ_ЛОГИН)
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ТВОЙ_ЛОГИН&show_icons=true&theme=radical)](https://github.com/ТВОЙ_ЛОГИН)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Uzalov-Gamid&layout=compact&theme=radical)](https://github.com/ТВОЙ_ЛОГИН)
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Uzalov-Gamid&show_icons=true&theme=radical)](https://github.com/ТВОЙ_ЛОГИН)
 
 ---
 
