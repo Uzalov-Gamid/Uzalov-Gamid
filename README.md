@@ -1,57 +1,47 @@
-# Привет, я Узалов Гамид! 👋
+# Привет, я Гамид Узалов! 👋
 
-📍 Живу в Москве  
-🎓 [Твоё образование или специальность, например: студент(ка) по направлению "Программная инженерия"]  
-💼 [Твоя должность или цель, например: Frontend-разработчик | Учусь делать крутые веб-приложения]  
-📧 [Твой email, например: example@mail.com]  
-🔗 [Ссылка на LinkedIn / Telegram / портфолио / сайт — что актуально]
+📍 **Москва, Россия**  
+🎓 Начинающий backend-разработчик  
+💡 Учусь создавать эффективные серверные приложения  
+📧 **Email:** [Uzalovgamid@gmail.com](mailto:Uzalovgamid@gmail.com)  
+📱 **Telegram:** [@crabbbic](https://t.me/crabbbic)  
 
 ---
 
-## 🛠️ Что я использую
+## 🛠️ Мой стек
 
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white)
 ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white)
+![Django](https://img.shields.io/badge/-Django-092E20?logo=django&logoColor=white)
+![FastAPI](https://img.shields.io/badge/-FastAPI-009688?logo=fastapi&logoColor=white)
+![SQL](https://img.shields.io/badge/-SQL-4479A1?logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white)
-
-(Добавь свои технологии — можно больше или меньше)
-
----
-
-## 📈 Моя статистика на GitHub
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Uzalov-Gamid&layout=compact&theme=radical)](https://github.com/Uzalov-Gamid)
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Uzalov-Gamid&show_icons=true&theme=radical)](https://github.com/Uzalov-Gamid)
+![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white)
+![C](https://img.shields.io/badge/-C-A8B9CC?logo=c&logoColor=black)
 
 ---
 
-## 🌱 Чему я учусь сейчас
-
-- [Например: Разработка REST API с использованием Express]
-- [Например: Погружение в архитектуру приложений]
-- [Например: Изучаю TypeScript и TDD]
-
----
-
-## 📫 Как со мной связаться
-
-- 📧 [example@mail.com](mailto:example@mail.com)
-- 💼 [LinkedIn](https://linkedin.com/in/...)
-- 🐦 [Twitter/X](https://twitter.com/...)
-- 📱 [Telegram](https://t.me/...)
+## 🌱 Сейчас углубляюсь в:
+- Детали работы **C** (указатели, память, алгоритмы)  
+- Оптимизация **REST API** на FastAPI  
+- Практика с **Docker** и микросервисами  
 
 ---
 
-## 🎯 Интересные проекты
-
-- 🔧 [Название проекта 1](https://github.com/ТВОЙ_ЛОГИН/проект1) — Краткое описание
-- 🖼️ [Название проекта 2](https://github.com/ТВОЙ_ЛОГИН/проект2) — Краткое описание
-- 🚀 [Название проекта 3](https://github.com/ТВОЙ_ЛОГИН/проект3) — Краткое описание
+## 📚 Образование
+- Школа (2024)  
+- Самообразование: курсы и документация (Python, Backend)  
 
 ---
 
-> 💬 *"Лучший способ предсказать будущее — это создать его."* — Алан Кей
+## 💬 Цитата
+> *«Коль нет цветов среди зимы, Так и грустить о них не надо.»*  
+
+---
+
+## 📫 Как связаться:
+- **Telegram:** [@crabbbic](https://t.me/crabbbic)  
+- **Email:** [Uzalovgamid@gmail.com](mailto:Uzalovgamid@gmail.com)  
+
+---
+
+⚡ **Факт:** Учусь через практику — скоро здесь появятся крутые проекты!  
