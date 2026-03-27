@@ -1,8 +1,3 @@
-<!-- 
-  Репозиторий профиля: github.com/ВАШ_НИК/ВАШ_НИК — README.md в корне.
-  При необходимости замените Uzalov-Gamid и контакты ниже.
--->
-
 <div align="center">
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=26&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=780&lines=%D0%93%D0%B0%D0%BC%D0%B8%D0%B4%20%D0%A3%D0%B7%D0%B0%D0%BB%D0%BE%D0%B2%20%C2%B7%20Junior%20DevOps;Backend%3A%20Python%2C%20Django%20%C2%B7%20HTML%2C%20CSS;Linux%20%C2%B7%20Docker%20%C2%B7%20Kubernetes%20%C2%B7%20Git%20%C2%B7%20CI%2FCD" alt="Заголовок профиля" />
@@ -10,8 +5,8 @@
 <br/>
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Uzalov-Gamid)
-[![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/your_username)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your@email.com)
+[![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/crabbbic)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:uzalovgamid@email.com)
 
 </div>
 
