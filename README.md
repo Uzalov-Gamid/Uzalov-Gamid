@@ -48,37 +48,3 @@
   <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white" alt="Bash" />
   <img src="https://img.shields.io/badge/nginx-009639?style=flat-square&logo=nginx&logoColor=white" alt="nginx" />
 </p>
-
----
-
-### Статистика GitHub
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Uzalov-Gamid&show_icons=true&theme=tokyonight&hide_border=true&border_radius=12&include_all_commits=true" alt="Статистика GitHub" />
-
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Uzalov-Gamid&layout=compact&theme=tokyonight&hide_border=true&border_radius=12&langs_count=8" alt="Языки" />
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Uzalov-Gamid&theme=tokyonight&hide_border=true&border_radius=12" alt="Streak" />
-
-</div>
-
----
-
-### Избранные репозитории
-
-<!-- Карточки: github-readme-stats ... api/pin/?username=Uzalov-Gamid&repo=ИМЯ_РЕПОЗИТОРИЯ -->
-
----
-
-<div align="center">
-
-Благодарю за внимание к профилю.
-
-<img src="https://komarev.com/ghpvc/?username=Uzalov-Gamid&label=Просмотры%20профиля&color=58a6ff&style=flat" alt="Просмотры" />
-
-</div>
