@@ -1,6 +1,6 @@
 <!-- 
   Репозиторий профиля: github.com/ВАШ_НИК/ВАШ_НИК — README.md в корне.
-  При необходимости замените uzalovgamid и контакты ниже.
+  При необходимости замените Uzalov-Gamid и контакты ниже.
 -->
 
 <div align="center">
@@ -9,7 +9,7 @@
 
 <br/>
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/uzalovgamid)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Uzalov-Gamid)
 [![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/your_username)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your@email.com)
 
@@ -55,15 +55,15 @@
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=uzalovgamid&show_icons=true&theme=tokyonight&hide_border=true&border_radius=12&include_all_commits=true" alt="Статистика GitHub" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Uzalov-Gamid&show_icons=true&theme=tokyonight&hide_border=true&border_radius=12&include_all_commits=true" alt="Статистика GitHub" />
 
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=uzalovgamid&layout=compact&theme=tokyonight&hide_border=true&border_radius=12&langs_count=8" alt="Языки" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Uzalov-Gamid&layout=compact&theme=tokyonight&hide_border=true&border_radius=12&langs_count=8" alt="Языки" />
 
 </div>
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=uzalovgamid&theme=tokyonight&hide_border=true&border_radius=12" alt="Streak" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Uzalov-Gamid&theme=tokyonight&hide_border=true&border_radius=12" alt="Streak" />
 
 </div>
 
@@ -71,7 +71,7 @@
 
 ### Избранные репозитории
 
-<!-- Карточки: github-readme-stats ... api/pin/?username=uzalovgamid&repo=ИМЯ_РЕПОЗИТОРИЯ -->
+<!-- Карточки: github-readme-stats ... api/pin/?username=Uzalov-Gamid&repo=ИМЯ_РЕПОЗИТОРИЯ -->
 
 ---
 
@@ -79,6 +79,6 @@
 
 Благодарю за внимание к профилю.
 
-<img src="https://komarev.com/ghpvc/?username=uzalovgamid&label=Просмотры%20профиля&color=58a6ff&style=flat" alt="Просмотры" />
+<img src="https://komarev.com/ghpvc/?username=Uzalov-Gamid&label=Просмотры%20профиля&color=58a6ff&style=flat" alt="Просмотры" />
 
 </div>
