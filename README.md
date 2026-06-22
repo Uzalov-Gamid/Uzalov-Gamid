@@ -7,7 +7,7 @@
 Python/Django/FastAPI, Linux, Docker, Kubernetes, CI/CD и monitoring. Собираю backend-приложения, настраиваю окружения для разработки и люблю, когда проект можно поднять одной понятной командой.
 
 [![Telegram](https://img.shields.io/badge/Telegram-@uzalovgamid-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/uzalovgamid)
-[![Email](https://img.shields.io/badge/Email-uzalovgamid@email.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:uzalovgamid@gmail.com)
+[![Email](https://img.shields.io/badge/Email-uzalovgamid@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:uzalovgamid@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-Uzalov--Gamid-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Uzalov-Gamid)
 
 </div>
