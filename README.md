@@ -1,75 +1,68 @@
 <div align="center">
 
-  <h1>👋 Привет, я Гамид Узалов</h1>
+# Гамид Узалов
 
-  <h3>Junior DevOps Engineer | Backend Developer</h3>
+**Junior DevOps Engineer & Backend Developer**
 
-  <p>
-    <strong>18 лет</strong> • Изучаю IT около трёх лет
-  </p>
+Python/Django, Linux, Docker, GitHub Actions. Собираю backend-приложения, настраиваю окружения для разработки и люблю, когда проект можно поднять одной понятной командой.
 
-  <p>
-    Специализируюсь на автоматизации инфраструктуры и разработке backend-приложений.  
-    Стремлюсь к созданию надёжных, масштабируемых и удобных в поддержке решений.
-  </p>
-
-  [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Uzalov-Gamid)
-  [![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/crabbbic)
-  [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:uzalovgamid@email.com)
+[![Telegram](https://img.shields.io/badge/Telegram-@crabbbic-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/crabbbic)
+[![Email](https://img.shields.io/badge/Email-uzalovgamid@email.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:uzalovgamid@email.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Uzalov--Gamid-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Uzalov-Gamid)
 
 </div>
 
 ---
 
-## 🚀 Обо мне
+## Чем я занимаюсь
 
-Меня зовут **Гамид Узалов**. Я Junior DevOps Engineer с уверенными навыками backend-разработки на **Python** (Django) и базовой веб-вёрстки.
+- Разрабатываю backend на Python и Django: авторизация, роли, CRUD, админка, работа с БД.
+- Упаковываю проекты в Docker и Docker Compose, описываю понятный локальный запуск.
+- Настраиваю GitHub Actions, тесты, линтинг и базовый CI/CD-процесс.
+- Работаю с Linux, Bash, Git, PostgreSQL, nginx и developer tooling.
+- Продолжаю углубляться в Kubernetes, наблюдаемость и production-подходы к инфраструктуре.
 
-За три года самостоятельного обучения я освоил современные инструменты разработки и эксплуатации приложений. Сейчас фокусируюсь на углублении знаний в области контейнеризации, оркестрации и CI/CD-процессов.
+## Стек
 
-Открыт к интересным задачам, open source вкладу и профессиональному общению.
-
-## 🛠️ Технологии и инструменты
-
-### Backend & Web
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" alt="Django" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white" alt="GitHub Actions" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux" />
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white" alt="Bash" />
+  <img src="https://img.shields.io/badge/nginx-009639?style=flat-square&logo=nginx&logoColor=white" alt="nginx" />
+  <img src="https://img.shields.io/badge/Neovim-57A143?style=flat-square&logo=neovim&logoColor=white" alt="Neovim" />
 </p>
 
-### DevOps & Infrastructure
-<p align="left">
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions" />
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Bash" />
-  <img src="https://img.shields.io/badge/nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" alt="nginx" />
+## Проекты
+
+| Проект | Что внутри | Стек |
+| --- | --- | --- |
+| [DoIt v0.2](https://github.com/Uzalov-Gamid/doit-v0.2) | Django-приложение для управления задачами: регистрация, роли, статусы, поиск, фильтры, журнал действий, Docker-запуск и CI. | Python, Django, PostgreSQL, Docker, GitHub Actions |
+| [Linux Challenge Lab](https://github.com/Uzalov-Gamid/LinuxChallengeLab) | Локальный тренажер Linux-команд с проверкой решений внутри Ubuntu-контейнера. | Bash, Linux, Docker, Dev Containers |
+| [Latte Art Competition Bot](https://github.com/Uzalov-Gamid/LatteArtCompetitionBot) | Telegram-бот для соревнований: регистрация участников, отправка работ, админ-оценка по LAGS, рейтинг и экспорт в Excel. | Python, aiogram, SQLAlchemy, SQLite |
+| [PyNetChat](https://github.com/Uzalov-Gamid/PyNetChat) | CLI-мессенджер с клиентской и серверной частями для практики сетевого программирования. | Python, sockets, CLI |
+| [CrabbbicNvim](https://github.com/Uzalov-Gamid/CrabbbicNvim) | Конфигурация Neovim как IDE для Python и DevOps-задач: LSP, форматтеры, линтеры, Treesitter и debugging. | Lua, Neovim, LSP, tooling |
+
+## GitHub
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Uzalov-Gamid&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github" alt="GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Uzalov-Gamid&layout=compact&theme=github_dark&hide_border=true" alt="Top languages" />
 </p>
 
-## 📌 Что я умею
+## Сейчас в фокусе
 
-- **Backend-разработка**: проектирование и реализация серверной логики на Python + Django
-- **Контейнеризация**: создание и управление Docker-контейнерами
-- **Оркестрация**: базовая работа с Kubernetes
-- **CI/CD**: настройка автоматизированных пайплайнов (GitHub Actions)
-- **Системы**: уверенная работа с Linux, Bash-скриптинг
-- **Версионирование**: Git + GitHub (branching, PR, workflow)
-- **Веб**: чистая семантическая вёрстка (HTML + CSS)
-
-Уровень — **Junior**. Готов быстро расти и брать ответственность за реальные задачи.
-
-## 📬 Связаться со мной
-
-- **Telegram**: [@crabbbic](https://t.me/crabbbic)
-- **Email**: uzalovgamid@email.com
-- **GitHub**: [Uzalov-Gamid](https://github.com/Uzalov-Gamid)
+- Довести учебные проекты до состояния, где их удобно запускать, проверять и показывать.
+- Больше практики с Docker, CI/CD, Linux-инфраструктурой и тестированием.
+- Делать README и документацию такими, чтобы новый человек быстро понимал пользу проекта.
 
 ---
 
 <div align="center">
-  <i>Открыт к сотрудничеству и новым вызовам 🚀</i>
+
+Открыт к стажировкам, junior-позициям, open source и интересным инженерным задачам.
+
 </div>
