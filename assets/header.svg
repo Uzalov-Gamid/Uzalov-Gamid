@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Gamid Uzalov — Linux, automation and infrastructure</title>
+  <desc id="desc">A terminal-inspired profile banner showing Gamid Uzalov's path from Python automation to Linux operations, containers and observability.</desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#060b13"/>
+      <stop offset="0.55" stop-color="#0d1624"/>
+      <stop offset="1" stop-color="#11263a"/>
+    </linearGradient>
+    <radialGradient id="blueGlow" cx="0.78" cy="0.18" r="0.7">
+      <stop offset="0" stop-color="#2f81f7" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#2f81f7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="greenGlow" cx="0.16" cy="0.84" r="0.55">
+      <stop offset="0" stop-color="#3fb950" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#3fb950" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="border" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3fb950" stop-opacity="0.75"/>
+      <stop offset="0.5" stop-color="#30363d"/>
+      <stop offset="1" stop-color="#58a6ff" stop-opacity="0.8"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#8b949e" stroke-width="0.55" stroke-opacity="0.11"/>
+    </pattern>
+    <filter id="shadow" x="-10%" y="-20%" width="120%" height="150%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="360" rx="28" fill="url(#background)"/>
+  <rect width="1200" height="360" rx="28" fill="url(#blueGlow)"/>
+  <rect width="1200" height="360" rx="28" fill="url(#greenGlow)"/>
+  <rect width="1200" height="360" rx="28" fill="url(#grid)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="42" y="36" width="1116" height="288" rx="22" fill="#0d1117" fill-opacity="0.88" stroke="url(#border)" stroke-width="1.5"/>
+  </g>
+
+  <circle cx="74" cy="67" r="6" fill="#ff5f56"/>
+  <circle cx="94" cy="67" r="6" fill="#ffbd2e"/>
+  <circle cx="114" cy="67" r="6" fill="#27c93f"/>
+  <text x="600" y="72" text-anchor="middle" fill="#8b949e" font-size="14" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">profile.sh — gamid@github</text>
+  <line x1="42" y1="91" x2="1158" y2="91" stroke="#30363d"/>
+
+  <text x="84" y="132" fill="#7ee787" font-size="17" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">gamid@github:~$ whoami</text>
+  <text x="82" y="197" fill="#f0f6fc" font-size="56" font-weight="700" letter-spacing="1" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">GAMID UZALOV</text>
+  <text x="84" y="233" fill="#58a6ff" font-size="23" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">Linux · automation · infrastructure</text>
+
+  <g transform="translate(84 261)" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13">
+    <rect width="140" height="31" rx="15.5" fill="#17261d" stroke="#238636"/>
+    <circle cx="18" cy="15.5" r="4" fill="#3fb950"/>
+    <text x="31" y="20" fill="#aff5b4">learning in public</text>
+
+    <rect x="154" width="117" height="31" rx="15.5" fill="#101e31" stroke="#1f6feb"/>
+    <text x="176" y="20" fill="#a5d6ff">Moscow · RU</text>
+
+    <rect x="285" width="197" height="31" rx="15.5" fill="#211b2d" stroke="#8957e5"/>
+    <text x="305" y="20" fill="#d2a8ff">open to junior roles</text>
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
+    <text x="830" y="127" fill="#8b949e" font-size="13" letter-spacing="1.8">PRACTICE PATH</text>
+
+    <line x1="845" y1="151" x2="845" y2="287" stroke="#30363d" stroke-width="2"/>
+
+    <circle cx="845" cy="158" r="7" fill="#58a6ff"/>
+    <circle cx="845" cy="200" r="7" fill="#7ee787"/>
+    <circle cx="845" cy="242" r="7" fill="#d2a8ff"/>
+    <circle cx="845" cy="284" r="7" fill="#f2cc60"/>
+
+    <text x="869" y="164" fill="#c9d1d9" font-size="16">Python automation</text>
+    <text x="869" y="206" fill="#c9d1d9" font-size="16">Linux operations</text>
+    <text x="869" y="248" fill="#c9d1d9" font-size="16">Containers &amp; CI/CD</text>
+    <text x="869" y="290" fill="#c9d1d9" font-size="16">Monitoring</text>
+  </g>
+
+  <rect x="84" y="303" width="10" height="3" rx="1.5" fill="#7ee787">
+    <animate attributeName="opacity" values="1;1;0;0" dur="1s" repeatCount="indefinite"/>
+  </rect>
+</svg>

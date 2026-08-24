@@ -1,111 +1,119 @@
 <div align="center">
 
-# Гамид Узалов
+![Gamid Uzalov — Linux, automation and infrastructure](./assets/header.svg)
 
-**Junior DevOps Engineer & Backend Developer**
+### Начинающий Linux / DevOps-инженер с опытом Python-автоматизации
 
-Python/Django/FastAPI, Linux, Docker, Kubernetes, CI/CD и monitoring. Собираю backend-приложения, настраиваю окружения для разработки и люблю, когда проект можно поднять одной понятной командой.
+Изучаю инфраструктуру через практику: разбираю Linux-системы, пишу скрипты, собираю контейнеры, настраиваю учебные CI/CD-процессы и мониторинг.
 
 [![Telegram](https://img.shields.io/badge/Telegram-@uzalovgamid-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/uzalovgamid)
-[![Email](https://img.shields.io/badge/Email-uzalovgamid@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:uzalovgamid@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Uzalov--Gamid-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Uzalov-Gamid)
+[![Email](https://img.shields.io/badge/Email-uzalovgamid%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:uzalovgamid@gmail.com)
+![Location](https://img.shields.io/badge/Moscow-Russia-1F6FEB?style=for-the-badge&logo=googlemaps&logoColor=white)
 
 </div>
 
----
+## Коротко обо мне
 
-## Чем я занимаюсь
+Я Гамид, студент из Москвы. Учусь по специальности «Информационные системы и программирование» и прохожу проектное обучение по направлению DevOps/Linux в Школе 21.
 
-- Разрабатываю backend на Python: Django, FastAPI, REST API, авторизация, роли, CRUD, работа с БД.
-- Проектирую локальную инфраструктуру: Docker, Docker Compose, nginx, PostgreSQL, Redis.
-- Настраиваю CI/CD: GitHub Actions, тесты, линтинг, Docker build, release-процессы.
-- Работаю с Linux и Bash: автоматизация администрирования, анализ логов, healthchecks, backup-скрипты.
-- Изучаю production-подходы: Kubernetes, manifests, observability, Prometheus, Grafana, deployment workflow.
+Перехожу в инфраструктуру из Python-разработки: использую программирование как инструмент для автоматизации, работы с API, обработки данных и поиска причин ошибок. Ищу стажировку или начальную позицию в Linux-администрировании, технической поддержке, сопровождении систем или DevOps.
 
-## Стек
+| | |
+| --- | --- |
+| **Практическая база** | Linux CLI, Bash, Python, Git, Docker |
+| **Нарабатываю практику** | systemd, SSH, TCP/IP, DNS, Docker Compose, GitLab CI/CD, Kubernetes, Prometheus, Grafana, PostgreSQL, SQL |
+| **Что мне интересно** | эксплуатация, мониторинг, автоматизация, диагностика и документация |
+| **Формат** | Москва · офис / гибрид / удалённо · полная занятость или стажировка |
 
-### Backend
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" alt="Django" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/REST_API-02569B?style=flat-square&logo=fastapi&logoColor=white" alt="REST API" />
-  <img src="https://img.shields.io/badge/OpenAPI-6BA539?style=flat-square&logo=openapiinitiative&logoColor=white" alt="OpenAPI" />
-  <img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white" alt="SQLAlchemy" />
-  <img src="https://img.shields.io/badge/aiogram-2CA5E0?style=flat-square&logo=telegram&logoColor=white" alt="aiogram" />
-</p>
+## Инструменты
 
-### Databases & Cache
-<p>
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/Redis-FF4438?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
-  <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" />
-</p>
-
-### DevOps & Infrastructure
-<p>
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux" />
-  <img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white" alt="Ubuntu" />
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white" alt="Bash" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Docker_Compose-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker Compose" />
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes" />
-  <img src="https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white" alt="Helm" />
-  <img src="https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white" alt="Ansible" />
-  <img src="https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white" alt="Terraform" />
-  <img src="https://img.shields.io/badge/nginx-009639?style=flat-square&logo=nginx&logoColor=white" alt="nginx" />
-  <img src="https://img.shields.io/badge/YAML-CB171E?style=flat-square&logo=yaml&logoColor=white" alt="YAML" />
-</p>
-
-### CI/CD & Monitoring
-<p>
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white" alt="GitHub Actions" />
-  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white" alt="Prometheus" />
-  <img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white" alt="Grafana" />
-  <img src="https://img.shields.io/badge/Grafana_Loki-F46800?style=flat-square&logo=grafana&logoColor=white" alt="Grafana Loki" />
-</p>
-
-### Tools
-<p>
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
-  <img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" alt="pytest" />
-  <img src="https://img.shields.io/badge/Ruff-D7FF64?style=flat-square&logo=ruff&logoColor=black" alt="Ruff" />
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white" alt="Postman" />
-  <img src="https://img.shields.io/badge/Neovim-57A143?style=flat-square&logo=neovim&logoColor=white" alt="Neovim" />
-</p>
-
-## Проекты
-
-| Проект | Что внутри | Стек |
-| --- | --- | --- |
-| [DoIt v0.2](https://github.com/Uzalov-Gamid/doit-v0.2) | Django-приложение для управления задачами: регистрация, роли, статусы, поиск, фильтры, журнал действий, Docker-запуск и CI. | Python, Django, PostgreSQL, Docker, GitHub Actions |
-| [DevOps Lab](https://github.com/Uzalov-Gamid/devops-lab) | Мини-инфраструктура для backend-сервиса: FastAPI, PostgreSQL, Redis, nginx, Docker Compose, healthchecks и CI. | FastAPI, PostgreSQL, Redis, Docker, nginx, GitHub Actions |
-| [FastAPI Monitoring Stack](https://github.com/Uzalov-Gamid/fastapi-monitoring-stack) | API с метриками, Prometheus и Grafana dashboard для практики observability. | FastAPI, Prometheus, Grafana, Docker Compose |
-| [Linux Admin Toolkit](https://github.com/Uzalov-Gamid/linux-admin-toolkit) | Набор Bash/Python-утилит для администрирования Linux: логи, backup, disk usage, process report. | Bash, Python, Linux, automation |
-| [K8s Mini Lab](https://github.com/Uzalov-Gamid/k8s-mini-lab) | Мини-лаборатория Kubernetes с manifests для backend-приложения, ConfigMap, Secret, Service и Ingress. | Kubernetes, Docker, FastAPI, YAML |
-| [Linux Challenge Lab](https://github.com/Uzalov-Gamid/LinuxChallengeLab) | Локальный тренажер Linux-команд с проверкой решений внутри Ubuntu-контейнера. | Bash, Linux, Docker, Dev Containers |
-| [Latte Art Competition Bot](https://github.com/Uzalov-Gamid/LatteArtCompetitionBot) | Telegram-бот для соревнований: регистрация участников, отправка работ, админ-оценка по LAGS, рейтинг и экспорт в Excel. | Python, aiogram, SQLAlchemy, SQLite |
-| [PyNetChat](https://github.com/Uzalov-Gamid/PyNetChat) | CLI-мессенджер с клиентской и серверной частями для практики сетевого программирования. | Python, sockets, CLI |
-| [CrabbbicNvim](https://github.com/Uzalov-Gamid/CrabbbicNvim) | Конфигурация Neovim как IDE для Python и DevOps-задач: LSP, форматтеры, линтеры, Treesitter и debugging. | Lua, Neovim, LSP, tooling |
-
-## GitHub
+### Использую в учебных и личных проектах
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Uzalov-Gamid&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Uzalov-Gamid&layout=compact&theme=github_dark&hide_border=true" alt="Top languages" />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=linux,bash,py,git,docker&theme=dark" alt="Linux, Bash, Python, Git and Docker" />
+  </a>
 </p>
+
+### Изучаю и закрепляю на практике
+
+`Docker Compose` · `systemd` · `SSH` · `TCP/IP` · `DNS` · `GitLab CI/CD` · `Kubernetes` · `Prometheus` · `Grafana` · `PostgreSQL` · `SQL`
+
+> Стек разделён по реальному уровню практики: инструменты, которые только изучаю, не выданы за уверенное владение.
+
+## Что уже умею делать на практике
+
+- Работать в Linux с пользователями и группами, правами доступа, процессами, файловой системой, службами и журналами.
+- Писать Bash- и Python-скрипты для повторяющихся операций, отчётов, обработки логов и данных.
+- Собирать образы, запускать и связывать контейнеры, использовать networks, volumes и Docker Compose.
+- Проверять состояние системы по логам, ресурсам, открытым портам, сетевым соединениям и состоянию служб.
+- Работать с Git: ветки, коммиты, разрешение конфликтов и merge request.
+- Описывать запуск проекта и последовательность диагностики так, чтобы её мог повторить другой человек.
+
+## Проекты, которые лучше всего показывают мою практику
+
+| Проект | Что можно проверить в репозитории |
+| --- | --- |
+| **[Linux Challenge Lab](https://github.com/Uzalov-Gamid/LinuxChallengeLab)** | Локальный тренажёр Linux-команд с проверкой в Ubuntu-контейнере: файлы, текстовые потоки, процессы и работа с портами. |
+| **[Linux Admin Toolkit](https://github.com/Uzalov-Gamid/linux-admin-toolkit)** | Небольшие Bash/Python-утилиты для backup, отчётов по диску и процессам, анализа access-логов; есть тесты и CI-проверки. |
+| **[FastAPI Monitoring Stack](https://github.com/Uzalov-Gamid/fastapi-monitoring-stack)** | Учебный стенд: сервис с метриками, Prometheus, автоматически подготовленный dashboard Grafana и запуск через Docker Compose. |
+| **[DoIt v0.2](https://github.com/Uzalov-Gamid/doit-v0.2)** | Учебное Django-приложение с PostgreSQL, Docker Compose, тестами и GitHub Actions — проект, на котором практикую связь приложения и инфраструктуры. |
+
+<details>
+<summary><b>Ещё один инфраструктурный эксперимент</b></summary>
+
+**[TPKT](https://github.com/Uzalov-Gamid/TPKT)** — персональная декларативная конфигурация macOS на базе nix-darwin и Home Manager. Это не Linux-дистрибутив, а эксперимент с воспроизводимой настройкой рабочей станции, конфигурацией как кодом и подробной документацией.
+
+</details>
+
+## Алгоритм диагностики, который отрабатываю в лабораториях
+
+```mermaid
+flowchart LR
+    A[Симптом или алерт] --> B[Службы и процессы]
+    B --> C[Логи]
+    C --> D[CPU, RAM и диск]
+    D --> E[DNS, порты и соединения]
+    E --> F[Исправление]
+    F --> G[Проверка и документация]
+```
 
 ## Сейчас в фокусе
 
-- Довести учебные проекты до состояния, где их удобно запускать, проверять и показывать.
-- Больше практики с Docker, Kubernetes, CI/CD, Linux-инфраструктурой, observability и тестированием.
-- Делать README и документацию такими, чтобы новый человек быстро понимал пользу проекта.
+- Углубить Linux: загрузка системы, systemd, journald, права, storage и troubleshooting.
+- Закрепить сети: TCP/IP, подсети, маршрутизация, DNS, DHCP, SSH, HTTP/HTTPS и TLS.
+- Уверенно собирать локальные стенды в Docker Compose и диагностировать проблемы контейнеров.
+- Пройти полный путь от commit до deploy в GitLab CI/CD.
+- Развить базовую практику Kubernetes и мониторинга через Prometheus/Grafana.
+
+## Обучение
+
+- **Школа 21 от Сбера** — проектное обучение по направлению DevOps/Linux, 2025 — настоящее время.
+- **Колледж мировой экономики и передовых технологий** — 09.02.07 «Информационные системы и программирование», окончание в 2028 году.
+
+## GitHub в цифрах
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./profile/stats-light.svg" />
+    <img height="170" src="./profile/stats-light.svg" alt="GitHub statistics" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/languages-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./profile/languages-light.svg" />
+    <img height="170" src="./profile/languages-light.svg" alt="Languages in public repositories" />
+  </picture>
+</p>
+
+<sub>Карточки ежедневно генерируются GitHub Actions и хранятся в этом репозитории, поэтому не зависят от доступности публичного сервера. Карточка языков показывает состав публичных репозиториев, а не уровень владения технологиями.</sub>
 
 ---
 
 <div align="center">
 
-Открыт к стажировкам, junior-позициям, open source и интересным инженерным задачам.
+**Открыт к стажировкам и начальным позициям:** Linux System Administrator · Support / System Engineer · Junior DevOps
+
+[Написать в Telegram](https://t.me/uzalovgamid) · [Написать на почту](mailto:uzalovgamid@gmail.com)
 
 </div>
