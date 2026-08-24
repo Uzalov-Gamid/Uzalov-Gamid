@@ -49,15 +49,15 @@
   <text x="84" y="233" fill="#58a6ff" font-size="23" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">Linux · automation · infrastructure</text>
 
   <g transform="translate(84 261)" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13">
-    <rect width="140" height="31" rx="15.5" fill="#17261d" stroke="#238636"/>
+    <rect width="180" height="31" rx="15.5" fill="#17261d" stroke="#238636"/>
     <circle cx="18" cy="15.5" r="4" fill="#3fb950"/>
     <text x="31" y="20" fill="#aff5b4">learning in public</text>
 
-    <rect x="154" width="117" height="31" rx="15.5" fill="#101e31" stroke="#1f6feb"/>
-    <text x="176" y="20" fill="#a5d6ff">Moscow · RU</text>
+    <rect x="194" width="117" height="31" rx="15.5" fill="#101e31" stroke="#1f6feb"/>
+    <text x="216" y="20" fill="#a5d6ff">Moscow · RU</text>
 
-    <rect x="285" width="197" height="31" rx="15.5" fill="#211b2d" stroke="#8957e5"/>
-    <text x="305" y="20" fill="#d2a8ff">open to junior roles</text>
+    <rect x="325" width="197" height="31" rx="15.5" fill="#211b2d" stroke="#8957e5"/>
+    <text x="345" y="20" fill="#d2a8ff">open to junior roles</text>
   </g>
 
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
