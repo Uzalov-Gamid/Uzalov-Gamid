@@ -29,14 +29,8 @@
 ## Чем пользуюсь
 
 <p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=linux,bash,py,git,docker&theme=dark" alt="Linux, Bash, Python, Git and Docker" />
-  </a>
+  <img src="./assets/stack-terminal.svg" alt="Technology stack grouped by practice level" />
 </p>
-
-- **Чаще всего:** Linux, Bash, Python, Git и Docker.
-- **Есть учебная практика:** Docker Compose, systemd, SSH, TCP/IP, DNS, Prometheus, Grafana, PostgreSQL и SQL.
-- **Пока разбираюсь:** GitLab CI/CD и Kubernetes.
 
 ## Мои проекты
 
