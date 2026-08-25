@@ -6,9 +6,11 @@
 
 Учусь работать с Linux и инфраструктурой. Сейчас ищу первую работу системным инженером, Linux-администратором или стажёром DevOps.
 
-[![Telegram](https://img.shields.io/badge/Telegram-@uzalovgamid-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/uzalovgamid)
-[![Email](https://img.shields.io/badge/Email-uzalovgamid%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:uzalovgamid@gmail.com)
-![Location](https://img.shields.io/badge/Moscow-Russia-1F6FEB?style=for-the-badge&logo=googlemaps&logoColor=white)
+<p>
+  <a href="https://t.me/uzalovgamid"><img height="58" src="./assets/contact-telegram.svg" alt="Telegram: @uzalovgamid" /></a>
+  <a href="mailto:uzalovgamid@gmail.com"><img height="58" src="./assets/contact-email.svg" alt="Email: uzalovgamid@gmail.com" /></a>
+  <img height="58" src="./assets/contact-location.svg" alt="Location: Moscow, Russia" />
+</p>
 
 </div>
 
@@ -75,30 +77,13 @@ flowchart LR
 - **Школа 21 от Сбера** — направление DevOps/Linux, с 2025 года.
 - **Колледж мировой экономики и передовых технологий** — 09.02.07 «Информационные системы и программирование», выпуск в 2028 году.
 
-## GitHub
+## GitHub в терминале
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./profile/stats-light.svg" />
-    <img height="170" src="./profile/stats-light.svg" alt="GitHub statistics" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./profile/languages-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./profile/languages-light.svg" />
-    <img height="170" src="./profile/languages-light.svg" alt="Languages in public repositories" />
-  </picture>
+  <img width="100%" src="./profile/terminal-metrics.svg" alt="GitHub activity and languages in a terminal" />
 </p>
 
-<sub>Языки на карточке — это состав файлов в публичных репозиториях, а не оценка моего уровня.</sub>
-
-### Календарь вкладов в 3D
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-season-animate.svg" />
-  <img src="./profile-3d-contrib/profile-season-animate.svg" alt="3D GitHub contribution calendar" />
-</picture>
+<sub>Панель обновляется каждый день. Языки показывают состав файлов в публичных репозиториях, а не мой уровень владения ими.</sub>
 
 ---
 
