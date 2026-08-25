@@ -2,9 +2,9 @@
 
 ![Gamid Uzalov — Linux, automation and infrastructure](./assets/header.svg)
 
-### Начинающий Linux / DevOps-инженер с опытом Python-автоматизации
+### Привет, я Гамид
 
-Изучаю инфраструктуру через практику: разбираю Linux-системы, пишу скрипты, собираю контейнеры, настраиваю учебные CI/CD-процессы и мониторинг.
+Учусь работать с Linux и инфраструктурой. Сейчас ищу первую работу системным инженером, Linux-администратором или стажёром DevOps.
 
 [![Telegram](https://img.shields.io/badge/Telegram-@uzalovgamid-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/uzalovgamid)
 [![Email](https://img.shields.io/badge/Email-uzalovgamid%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:uzalovgamid@gmail.com)
@@ -12,22 +12,19 @@
 
 </div>
 
-## Коротко обо мне
+## Обо мне
 
-Я Гамид, студент из Москвы. Учусь по специальности «Информационные системы и программирование» и прохожу проектное обучение по направлению DevOps/Linux в Школе 21.
+Я живу в Москве, учусь в колледже и в Школе 21.
 
-Перехожу в инфраструктуру из Python-разработки: использую программирование как инструмент для автоматизации, работы с API, обработки данных и поиска причин ошибок. Ищу стажировку или начальную позицию в Linux-администрировании, технической поддержке, сопровождении систем или DevOps.
+Раньше я больше занимался Python-разработкой. Со временем понял, что мне интереснее Linux, серверы и всё, что происходит вокруг приложения после написания кода. Нравится разбираться, почему что-то не запускается, смотреть логи и убирать повторяющуюся работу скриптами.
 
-| | |
-| --- | --- |
-| **Практическая база** | Linux CLI, Bash, Python, Git, Docker |
-| **Нарабатываю практику** | systemd, SSH, TCP/IP, DNS, Docker Compose, GitLab CI/CD, Kubernetes, Prometheus, Grafana, PostgreSQL, SQL |
-| **Что мне интересно** | эксплуатация, мониторинг, автоматизация, диагностика и документация |
-| **Формат** | Москва · офис / гибрид / удалённо · полная занятость или стажировка |
+Коммерческого опыта в Linux и DevOps пока нет. Всё, что здесь показано, — мои учебные и личные проекты.
 
-## Инструменты
+<p align="center">
+  <img src="./assets/cat-terminal.svg" alt="Terminal cat watching the logs" />
+</p>
 
-### Использую в учебных и личных проектах
+## Чем пользуюсь
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -35,63 +32,50 @@
   </a>
 </p>
 
-### Изучаю и закрепляю на практике
+- **Чаще всего:** Linux, Bash, Python, Git и Docker.
+- **Есть учебная практика:** Docker Compose, systemd, SSH, TCP/IP, DNS, Prometheus, Grafana, PostgreSQL и SQL.
+- **Пока разбираюсь:** GitLab CI/CD и Kubernetes.
 
-`Docker Compose` · `systemd` · `SSH` · `TCP/IP` · `DNS` · `GitLab CI/CD` · `Kubernetes` · `Prometheus` · `Grafana` · `PostgreSQL` · `SQL`
+## Мои проекты
 
-> Стек разделён по реальному уровню практики: инструменты, которые только изучаю, не выданы за уверенное владение.
-
-## Что уже умею делать на практике
-
-- Работать в Linux с пользователями и группами, правами доступа, процессами, файловой системой, службами и журналами.
-- Писать Bash- и Python-скрипты для повторяющихся операций, отчётов, обработки логов и данных.
-- Собирать образы, запускать и связывать контейнеры, использовать networks, volumes и Docker Compose.
-- Проверять состояние системы по логам, ресурсам, открытым портам, сетевым соединениям и состоянию служб.
-- Работать с Git: ветки, коммиты, разрешение конфликтов и merge request.
-- Описывать запуск проекта и последовательность диагностики так, чтобы её мог повторить другой человек.
-
-## Проекты, которые лучше всего показывают мою практику
-
-| Проект | Что можно проверить в репозитории |
-| --- | --- |
-| **[Linux Challenge Lab](https://github.com/Uzalov-Gamid/LinuxChallengeLab)** | Локальный тренажёр Linux-команд с проверкой в Ubuntu-контейнере: файлы, текстовые потоки, процессы и работа с портами. |
-| **[Linux Admin Toolkit](https://github.com/Uzalov-Gamid/linux-admin-toolkit)** | Небольшие Bash/Python-утилиты для backup, отчётов по диску и процессам, анализа access-логов; есть тесты и CI-проверки. |
-| **[FastAPI Monitoring Stack](https://github.com/Uzalov-Gamid/fastapi-monitoring-stack)** | Учебный стенд: сервис с метриками, Prometheus, автоматически подготовленный dashboard Grafana и запуск через Docker Compose. |
-| **[DoIt v0.2](https://github.com/Uzalov-Gamid/doit-v0.2)** | Учебное Django-приложение с PostgreSQL, Docker Compose, тестами и GitHub Actions — проект, на котором практикую связь приложения и инфраструктуры. |
+- **[Linux Challenge Lab](https://github.com/Uzalov-Gamid/LinuxChallengeLab)** — сделал лабораторию, чтобы решать задания именно в Ubuntu, а не зависеть от различий между Linux и macOS.
+- **[Linux Admin Toolkit](https://github.com/Uzalov-Gamid/linux-admin-toolkit)** — несколько Bash- и Python-скриптов для backup, отчётов по диску и процессам, а также разбора access-логов.
+- **[FastAPI Monitoring Stack](https://github.com/Uzalov-Gamid/fastapi-monitoring-stack)** — локальный стенд с приложением, метриками Prometheus и dashboard в Grafana.
+- **[DoIt v0.2](https://github.com/Uzalov-Gamid/doit-v0.2)** — учебное Django-приложение с PostgreSQL, Docker Compose, тестами и GitHub Actions.
 
 <details>
-<summary><b>Ещё один инфраструктурный эксперимент</b></summary>
+<summary>Ещё один эксперимент</summary>
 
-**[TPKT](https://github.com/Uzalov-Gamid/TPKT)** — персональная декларативная конфигурация macOS на базе nix-darwin и Home Manager. Это не Linux-дистрибутив, а эксперимент с воспроизводимой настройкой рабочей станции, конфигурацией как кодом и подробной документацией.
+**[TPKT](https://github.com/Uzalov-Gamid/TPKT)** — моя конфигурация macOS через nix-darwin и Home Manager. Пробовал собрать рабочее окружение так, чтобы настройки хранились в коде и их можно было повторить.
 
 </details>
 
-## Алгоритм диагностики, который отрабатываю в лабораториях
+## Как я обычно ищу проблему
+
+Сначала стараюсь повторить ошибку. Потом иду от простого к сложному и меняю по одной вещи за раз.
 
 ```mermaid
 flowchart LR
-    A[Симптом или алерт] --> B[Службы и процессы]
-    B --> C[Логи]
-    C --> D[CPU, RAM и диск]
-    D --> E[DNS, порты и соединения]
-    E --> F[Исправление]
-    F --> G[Проверка и документация]
+    A[Повторить ошибку] --> B[Проверить службу]
+    B --> C[Посмотреть логи]
+    C --> D[Проверить ресурсы и сеть]
+    D --> E[Изменить одну вещь]
+    E --> F[Проверить ещё раз]
 ```
 
-## Сейчас в фокусе
+## Что сейчас учу
 
-- Углубить Linux: загрузка системы, systemd, journald, права, storage и troubleshooting.
-- Закрепить сети: TCP/IP, подсети, маршрутизация, DNS, DHCP, SSH, HTTP/HTTPS и TLS.
-- Уверенно собирать локальные стенды в Docker Compose и диагностировать проблемы контейнеров.
-- Пройти полный путь от commit до deploy в GitLab CI/CD.
-- Развить базовую практику Kubernetes и мониторинга через Prometheus/Grafana.
+- systemd, journald, права, процессы и файловые системы;
+- TCP/IP, подсети, DNS, DHCP, SSH, HTTP/HTTPS и TLS;
+- диагностику контейнеров и работу с Docker Compose;
+- GitLab CI/CD, основы Kubernetes и мониторинг.
 
-## Обучение
+## Учёба
 
-- **Школа 21 от Сбера** — проектное обучение по направлению DevOps/Linux, 2025 — настоящее время.
-- **Колледж мировой экономики и передовых технологий** — 09.02.07 «Информационные системы и программирование», окончание в 2028 году.
+- **Школа 21 от Сбера** — направление DevOps/Linux, с 2025 года.
+- **Колледж мировой экономики и передовых технологий** — 09.02.07 «Информационные системы и программирование», выпуск в 2028 году.
 
-## GitHub в цифрах
+## GitHub
 
 <p align="center">
   <picture>
@@ -106,14 +90,22 @@ flowchart LR
   </picture>
 </p>
 
-<sub>Карточки ежедневно генерируются GitHub Actions и хранятся в этом репозитории, поэтому не зависят от доступности публичного сервера. Карточка языков показывает состав публичных репозиториев, а не уровень владения технологиями.</sub>
+<sub>Языки на карточке — это состав файлов в публичных репозиториях, а не оценка моего уровня.</sub>
+
+### Календарь вкладов в 3D
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-season-animate.svg" />
+  <img src="./profile-3d-contrib/profile-season-animate.svg" alt="3D GitHub contribution calendar" />
+</picture>
 
 ---
 
 <div align="center">
 
-**Открыт к стажировкам и начальным позициям:** Linux System Administrator · Support / System Engineer · Junior DevOps
+Ищу стажировку или начальную позицию: **Linux System Administrator · Support / System Engineer · Junior DevOps**
 
-[Написать в Telegram](https://t.me/uzalovgamid) · [Написать на почту](mailto:uzalovgamid@gmail.com)
+[Telegram](https://t.me/uzalovgamid) · [Почта](mailto:uzalovgamid@gmail.com)
 
 </div>
