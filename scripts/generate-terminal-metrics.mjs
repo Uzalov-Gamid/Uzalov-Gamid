@@ -166,5 +166,5 @@ ${languageRows}
 `;
 
 await mkdir("profile", { recursive: true });
-await writeFile("profile/terminal-metrics.svg", svg, "utf8");
+await writeFile("profile/terminal-dashboard.svg", svg, "utf8");
 console.log(`Generated terminal metrics for ${user}`);

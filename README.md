@@ -74,7 +74,7 @@ flowchart LR
 ## GitHub в терминале
 
 <p align="center">
-  <img width="100%" src="./profile/terminal-metrics.svg" alt="GitHub activity and languages in a terminal" />
+  <img width="100%" src="./profile/terminal-dashboard.svg" alt="GitHub activity and languages in a terminal" />
 </p>
 
 <sub>Панель обновляется каждый день. Языки показывают состав файлов в публичных репозиториях, а не мой уровень владения ими.</sub>
