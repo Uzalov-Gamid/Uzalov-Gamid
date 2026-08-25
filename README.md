@@ -1,10 +1,6 @@
-<div align="center">
-
 ![Gamid Uzalov — Linux, automation and infrastructure](./assets/header.svg)
 
-### Привет, я Гамид
-
-Учусь работать с Linux и инфраструктурой. Сейчас ищу первую работу системным инженером, Linux-администратором или стажёром DevOps.
+Linux-системы, контейнеризация, мониторинг и автоматизация. Рассматриваю позиции Linux-системного администратора, системного инженера и Junior DevOps.
 
 <p>
   <a href="https://t.me/uzalovgamid"><img height="58" src="./assets/contact-telegram.svg" alt="Telegram: @uzalovgamid" /></a>
@@ -12,79 +8,46 @@
   <img height="58" src="./assets/contact-location.svg" alt="Location: Moscow, Russia" />
 </p>
 
-</div>
+## Профиль
 
-## Обо мне
+Занимаюсь администрированием Linux, автоматизацией и эксплуатацией сервисов. Работаю с системными службами, журналами, пользователями и правами доступа, сетевыми инструментами, контейнерами и мониторингом.
 
-Я живу в Москве, учусь в колледже и в Школе 21.
+Ранее занимался Python-разработкой. Сейчас использую Python и Bash для служебных скриптов, обработки данных, работы с API и автоматизации повторяющихся операций.
 
-Раньше я больше занимался Python-разработкой. Со временем понял, что мне интереснее Linux, серверы и всё, что происходит вокруг приложения после написания кода. Нравится разбираться, почему что-то не запускается, смотреть логи и убирать повторяющуюся работу скриптами.
+Практику получаю в проектах Школы 21 и собственных лабораторных стендах. Конфигурации, скрипты и инструкции храню в Git, а результаты оформляю в виде воспроизводимых проектов.
 
-Коммерческого опыта в Linux и DevOps пока нет. Всё, что здесь показано, — мои учебные и личные проекты.
+<img src="./assets/cat-terminal.svg" alt="Terminal cat watching the logs" />
 
-<p align="center">
-  <img src="./assets/cat-terminal.svg" alt="Terminal cat watching the logs" />
-</p>
+## Технологии
 
-## Чем пользуюсь
+<img src="./assets/stack-terminal.svg" alt="Technology stack grouped by area" />
 
-<p align="center">
-  <img src="./assets/stack-terminal.svg" alt="Technology stack grouped by practice level" />
-</p>
+## Проекты
 
-## Мои проекты
+- **[Linux Challenge Lab](https://github.com/Uzalov-Gamid/LinuxChallengeLab)** — лабораторное окружение Ubuntu для практики администрирования Linux.
+- **[Linux Admin Toolkit](https://github.com/Uzalov-Gamid/linux-admin-toolkit)** — Bash- и Python-скрипты для резервного копирования, проверки дисков и процессов, формирования отчётов и разбора access-логов.
+- **[FastAPI Monitoring Stack](https://github.com/Uzalov-Gamid/fastapi-monitoring-stack)** — стенд с приложением, метриками Prometheus и дашбордом Grafana.
+- **[DoIt v0.2](https://github.com/Uzalov-Gamid/doit-v0.2)** — Django-приложение с PostgreSQL, Docker Compose, тестами и GitHub Actions.
+- **[TPKT](https://github.com/Uzalov-Gamid/TPKT)** — конфигурация macOS на базе nix-darwin и Home Manager.
 
-- **[Linux Challenge Lab](https://github.com/Uzalov-Gamid/LinuxChallengeLab)** — сделал лабораторию, чтобы решать задания именно в Ubuntu, а не зависеть от различий между Linux и macOS.
-- **[Linux Admin Toolkit](https://github.com/Uzalov-Gamid/linux-admin-toolkit)** — несколько Bash- и Python-скриптов для backup, отчётов по диску и процессам, а также разбора access-логов.
-- **[FastAPI Monitoring Stack](https://github.com/Uzalov-Gamid/fastapi-monitoring-stack)** — локальный стенд с приложением, метриками Prometheus и dashboard в Grafana.
-- **[DoIt v0.2](https://github.com/Uzalov-Gamid/doit-v0.2)** — учебное Django-приложение с PostgreSQL, Docker Compose, тестами и GitHub Actions.
+## Текущий фокус
 
-<details>
-<summary>Ещё один эксперимент</summary>
+- администрирование Linux: systemd, journald, права доступа, процессы и файловые системы;
+- сети: TCP/IP, подсети, DNS, DHCP, SSH, HTTP/HTTPS и TLS;
+- контейнеризация и диагностика сервисов в Docker и Docker Compose;
+- CI/CD, Kubernetes, Prometheus и Grafana.
 
-**[TPKT](https://github.com/Uzalov-Gamid/TPKT)** — моя конфигурация macOS через nix-darwin и Home Manager. Пробовал собрать рабочее окружение так, чтобы настройки хранились в коде и их можно было повторить.
-
-</details>
-
-## Как я обычно ищу проблему
-
-Сначала стараюсь повторить ошибку. Потом иду от простого к сложному и меняю по одной вещи за раз.
-
-```mermaid
-flowchart LR
-    A[Повторить ошибку] --> B[Проверить службу]
-    B --> C[Посмотреть логи]
-    C --> D[Проверить ресурсы и сеть]
-    D --> E[Изменить одну вещь]
-    E --> F[Проверить ещё раз]
-```
-
-## Что сейчас учу
-
-- systemd, journald, права, процессы и файловые системы;
-- TCP/IP, подсети, DNS, DHCP, SSH, HTTP/HTTPS и TLS;
-- диагностику контейнеров и работу с Docker Compose;
-- GitLab CI/CD, основы Kubernetes и мониторинг.
-
-## Учёба
+## Образование
 
 - **Школа 21 от Сбера** — направление DevOps/Linux, с 2025 года.
 - **Колледж мировой экономики и передовых технологий** — 09.02.07 «Информационные системы и программирование», выпуск в 2028 году.
 
-## GitHub в терминале
+## GitHub
 
-<p align="center">
-  <img width="100%" src="./profile/terminal-dashboard.svg" alt="GitHub activity and languages in a terminal" />
-</p>
-
-<sub>Панель обновляется каждый день. Языки показывают состав файлов в публичных репозиториях, а не мой уровень владения ими.</sub>
+<img width="100%" src="./profile/terminal-dashboard.svg" alt="GitHub activity and languages in a terminal" />
 
 ---
 
-<div align="center">
-
-Ищу стажировку или начальную позицию: **Linux System Administrator · Support / System Engineer · Junior DevOps**
+Рассматриваю стажировки и начальные позиции в системном администрировании, сопровождении Linux-систем и DevOps.
 
 [Telegram](https://t.me/uzalovgamid) · [Почта](mailto:uzalovgamid@gmail.com)
-
-</div>

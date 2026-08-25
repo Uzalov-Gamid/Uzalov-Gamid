@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="245" viewBox="0 0 1000 245" role="img" aria-labelledby="title desc">
-  <title id="title">Technology stack by practice level</title>
-  <desc id="desc">A terminal listing tools used often, practiced in projects and currently being learned.</desc>
+  <title id="title">Technology stack grouped by area</title>
+  <desc id="desc">A terminal listing systems, automation, platform and observability tools.</desc>
   <defs>
     <linearGradient id="stackBackground" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#070b12"/>
@@ -22,23 +22,25 @@
   <circle cx="30" cy="28" r="6" fill="#ff5f56"/>
   <circle cx="50" cy="28" r="6" fill="#ffbd2e"/>
   <circle cx="70" cy="28" r="6" fill="#27c93f"/>
-  <text x="500" y="33" text-anchor="middle" fill="#8b949e" font-size="14" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">stack.yml — current practice</text>
+  <text x="500" y="33" text-anchor="middle" fill="#8b949e" font-size="14" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">stack.yml — tools by area</text>
   <line x1="1" y1="52" x2="999" y2="52" stroke="#30363d"/>
 
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
     <text x="44" y="86" fill="#58a6ff" font-size="16">gamid@lab:~$</text>
-    <text x="190" y="86" fill="#c9d1d9" font-size="16">stack --level</text>
+    <text x="190" y="86" fill="#c9d1d9" font-size="16">stack --group</text>
 
-    <text x="44" y="124" fill="#7ee787" font-size="16">[used often]</text>
-    <text x="205" y="124" fill="#c9d1d9" font-size="16">linux  bash  python  git  docker</text>
+    <text x="44" y="124" fill="#7ee787" font-size="16">[systems]</text>
+    <text x="205" y="124" fill="#c9d1d9" font-size="16">linux  systemd  ssh  tcp/ip  dns</text>
 
-    <text x="44" y="160" fill="#58a6ff" font-size="16">[practiced]</text>
-    <text x="205" y="160" fill="#c9d1d9" font-size="16">docker-compose  systemd  ssh  tcp/ip  dns  prometheus  grafana</text>
-    <text x="205" y="188" fill="#c9d1d9" font-size="16">postgresql  sql</text>
+    <text x="44" y="156" fill="#58a6ff" font-size="16">[automation]</text>
+    <text x="205" y="156" fill="#c9d1d9" font-size="16">bash  python  git  gitlab-ci</text>
 
-    <text x="44" y="220" fill="#f2cc60" font-size="16">[learning]</text>
-    <text x="205" y="220" fill="#c9d1d9" font-size="16">gitlab-ci  kubernetes</text>
-    <rect x="438" y="207" width="10" height="17" rx="1" fill="#f2cc60">
+    <text x="44" y="188" fill="#d2a8ff" font-size="16">[platform]</text>
+    <text x="205" y="188" fill="#c9d1d9" font-size="16">docker  docker-compose  kubernetes</text>
+
+    <text x="44" y="220" fill="#f2cc60" font-size="16">[data + obs]</text>
+    <text x="205" y="220" fill="#c9d1d9" font-size="16">postgresql  sql  prometheus  grafana</text>
+    <rect x="630" y="207" width="10" height="17" rx="1" fill="#f2cc60">
       <animate attributeName="opacity" values="1;1;0;0" dur="1s" repeatCount="indefinite"/>
     </rect>
   </g>
