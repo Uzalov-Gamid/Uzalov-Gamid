@@ -62,7 +62,7 @@
     <text x="700" y="294" fill="#a5d6ff" font-size="15">[#.................]</text>
     <text x="918" y="294" text-anchor="end" fill="#c9d1d9" font-size="14">  2.8%</text>
 
-    <text x="48" y="315" fill="#484f58" font-size="12">public data · updated daily · 04/09/2026, 10:58 MSK</text>
+    <text x="48" y="315" fill="#484f58" font-size="12">public data · updated daily · 05/09/2026, 10:40 MSK</text>
     <rect x="931" y="301" width="10" height="17" rx="1" fill="#58a6ff">
       <animate attributeName="opacity" values="1;1;0;0" dur="1s" repeatCount="indefinite"/>
     </rect>
