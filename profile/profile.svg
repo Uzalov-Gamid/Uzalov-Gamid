@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1550" viewBox="0 0 1200 1550" role="img" aria-labelledby="title desc">
+  <title id="title">Gamid Uzalov</title>
+  <desc id="desc">Profile, stack, projects, education and live GitHub statistics.</desc>
+  <rect x="1" y="1" width="1198" height="1548" rx="10" fill="#0b0b0d" stroke="#26262a" stroke-width="1"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">
+<text x="32" y="64" fill="#f4f4f5" font-size="34" font-weight="700" letter-spacing="0.5">GAMID UZALOV</text>
+<text x="32" y="94" fill="#9a9a9e" font-size="17">Linux · Automation · Infrastructure</text>
+<line x1="32" y1="118" x2="1168" y2="118" stroke="#1d1d20" stroke-width="1"/>
+<text x="32" y="150" fill="#9a9a9e" font-size="14">Telegram · @uzalovgamid</text>
+<text x="362" y="150" fill="#9a9a9e" font-size="14">Email · uzalovgamid@gmail.com</text>
+<text x="1168" y="150" text-anchor="end" fill="#cfcfd2" font-size="14">Moscow, RU · Open to junior roles</text>
+<text x="32" y="208" fill="#7a7a80" font-size="12" font-weight="600" letter-spacing="2">ПРОФИЛЬ</text>
+<line x1="32" y1="222" x2="1168" y2="222" stroke="#1d1d20" stroke-width="1"/>
+<text x="32" y="258" fill="#d4d4d6" font-size="17">Начинал с Python-разработки, сейчас перехожу в администрирование Linux и DevOps.</text>
+<text x="32" y="288" fill="#d4d4d6" font-size="17">Практику получаю в Школе 21 и на собственных лабораторных стендах.</text>
+<text x="32" y="318" fill="#d4d4d6" font-size="17">Каждую задачу довожу до воспроизводимого проекта с CI.</text>
+<text x="32" y="368" fill="#7a7a80" font-size="12" font-weight="600" letter-spacing="2">СТЕК</text>
+<line x1="32" y1="382" x2="1168" y2="382" stroke="#1d1d20" stroke-width="1"/>
+<text x="32" y="426" fill="#d4d4d6" font-size="15" font-weight="600">SYSTEMS</text>
+<text x="280" y="426" fill="#9a9a9e" font-size="16">Linux · systemd · SSH · TCP/IP · DNS</text>
+<line x1="32" y1="449" x2="1168" y2="449" stroke="#1d1d20" stroke-width="1"/>
+<text x="32" y="472" fill="#d4d4d6" font-size="15" font-weight="600">AUTOMATION</text>
+<text x="280" y="472" fill="#9a9a9e" font-size="16">Bash · Python · Git · CI/CD</text>
+<line x1="32" y1="495" x2="1168" y2="495" stroke="#1d1d20" stroke-width="1"/>
+<text x="32" y="518" fill="#d4d4d6" font-size="15" font-weight="600">PLATFORM</text>
+<text x="280" y="518" fill="#9a9a9e" font-size="16">Docker · Docker Compose · Kubernetes</text>
+<line x1="32" y1="541" x2="1168" y2="541" stroke="#1d1d20" stroke-width="1"/>
+<text x="32" y="564" fill="#d4d4d6" font-size="15" font-weight="600">DATA &amp; OBS</text>
+<text x="280" y="564" fill="#9a9a9e" font-size="16">PostgreSQL · SQL · Prometheus · Grafana</text>
+<text x="32" y="612" fill="#7a7a80" font-size="12" font-weight="600" letter-spacing="2">ПРОЕКТЫ</text>
+<line x1="32" y1="626" x2="1168" y2="626" stroke="#1d1d20" stroke-width="1"/>
+<text x="32" y="658" fill="#9a9a9e" font-size="13" font-weight="700" letter-spacing="2.5">LINUX</text>
+<text x="32" y="688" fill="#f4f4f5" font-size="16" font-weight="600">linux-challenge-lab</text>
+<text x="32" y="710" fill="#9a9a9e" font-size="14">Лабораторное окружение Ubuntu для практики администрирования</text>
+<line x1="32" y1="726" x2="1168" y2="726" stroke="#1d1d20" stroke-width="1"/>
+<text x="32" y="750" fill="#f4f4f5" font-size="16" font-weight="600">linux-admin-toolkit</text>
+<text x="32" y="772" fill="#9a9a9e" font-size="14">Бэкапы, отчёты по дискам и процессам, разбор access-логов</text>
+<line x1="32" y1="788" x2="1168" y2="788" stroke="#1d1d20" stroke-width="1"/>
+<text x="32" y="820" fill="#9a9a9e" font-size="13" font-weight="700" letter-spacing="2.5">INFRASTRUCTURE &amp; DEVOPS</text>
+<text x="32" y="850" fill="#f4f4f5" font-size="16" font-weight="600">fastapi-monitoring-stack</text>
+<text x="32" y="872" fill="#9a9a9e" font-size="14">Приложение с метриками Prometheus и дашбордом Grafana</text>
+<line x1="32" y1="888" x2="1168" y2="888" stroke="#1d1d20" stroke-width="1"/>
+<text x="32" y="912" fill="#f4f4f5" font-size="16" font-weight="600">k8s-mini-lab</text>
+<text x="32" y="934" fill="#9a9a9e" font-size="14">FastAPI в Kubernetes: ConfigMap, Secret, Service, Ingress, CI</text>
+<line x1="32" y1="950" x2="1168" y2="950" stroke="#1d1d20" stroke-width="1"/>
+<text x="32" y="974" fill="#f4f4f5" font-size="16" font-weight="600">devops-lab</text>
+<text x="32" y="996" fill="#9a9a9e" font-size="14">Бэкенд на PostgreSQL, Redis и nginx за Docker Compose</text>
+<line x1="32" y1="1012" x2="1168" y2="1012" stroke="#1d1d20" stroke-width="1"/>
+<text x="32" y="1044" fill="#9a9a9e" font-size="13" font-weight="700" letter-spacing="2.5">BACKEND</text>
+<text x="32" y="1074" fill="#f4f4f5" font-size="16" font-weight="600">doit</text>
+<text x="32" y="1096" fill="#9a9a9e" font-size="14">Django-приложение с PostgreSQL, Docker Compose, тестами и CI</text>
+<text x="32" y="1162" fill="#7a7a80" font-size="12" font-weight="600" letter-spacing="2">ОБРАЗОВАНИЕ</text>
+<line x1="32" y1="1176" x2="1168" y2="1176" stroke="#1d1d20" stroke-width="1"/>
+<text x="32" y="1212" fill="#d4d4d6" font-size="17">Школа 21 от Сбера — направление DevOps/Linux, с 2025 года</text>
+<text x="32" y="1244" fill="#d4d4d6" font-size="17">Колледж мировой экономики и передовых технологий — ИСиП, выпуск 2028</text>
+<text x="32" y="1294" fill="#7a7a80" font-size="12" font-weight="600" letter-spacing="2">GITHUB</text>
+<line x1="32" y1="1308" x2="1168" y2="1308" stroke="#1d1d20" stroke-width="1"/>
+<text x="32" y="1352" fill="#9a9a9e" font-size="14">Owned repos</text>
+<text x="360" y="1352" fill="#f4f4f5" font-size="14" font-weight="600">10</text>
+<text x="32" y="1384" fill="#9a9a9e" font-size="14">Followers</text>
+<text x="360" y="1384" fill="#f4f4f5" font-size="14" font-weight="600">12</text>
+<text x="32" y="1416" fill="#9a9a9e" font-size="14">Stars received</text>
+<text x="360" y="1416" fill="#f4f4f5" font-size="14" font-weight="600">3</text>
+<text x="32" y="1448" fill="#9a9a9e" font-size="14">Forks</text>
+<text x="360" y="1448" fill="#f4f4f5" font-size="14" font-weight="600">0</text>
+<text x="32" y="1480" fill="#9a9a9e" font-size="14">Latest push</text>
+<text x="360" y="1480" fill="#f4f4f5" font-size="14" font-weight="600">linux-admin-toolkit · 2026-08-25</text>
+
+    <text x="640" y="1352" fill="#9a9a9e" font-size="14">Python</text>
+    <rect x="770" y="1340" width="220" height="4" rx="2" fill="#1d1d20"/>
+    <rect x="770" y="1340" width="149" height="4" rx="2" fill="#f4f4f5" opacity="1.00"/>
+    <text x="1168" y="1352" text-anchor="end" fill="#9a9a9e" font-size="13">67.8%</text>
+    <text x="640" y="1384" fill="#9a9a9e" font-size="14">Nix</text>
+    <rect x="770" y="1372" width="220" height="4" rx="2" fill="#1d1d20"/>
+    <rect x="770" y="1372" width="25" height="4" rx="2" fill="#f4f4f5" opacity="0.86"/>
+    <text x="1168" y="1384" text-anchor="end" fill="#9a9a9e" font-size="13">11.2%</text>
+    <text x="640" y="1416" fill="#9a9a9e" font-size="14">HTML</text>
+    <rect x="770" y="1404" width="220" height="4" rx="2" fill="#1d1d20"/>
+    <rect x="770" y="1404" width="16" height="4" rx="2" fill="#f4f4f5" opacity="0.72"/>
+    <text x="1168" y="1416" text-anchor="end" fill="#9a9a9e" font-size="13">7.1%</text>
+    <text x="640" y="1448" fill="#9a9a9e" font-size="14">Shell</text>
+    <rect x="770" y="1436" width="220" height="4" rx="2" fill="#1d1d20"/>
+    <rect x="770" y="1436" width="15" height="4" rx="2" fill="#f4f4f5" opacity="0.58"/>
+    <text x="1168" y="1448" text-anchor="end" fill="#9a9a9e" font-size="13">6.7%</text>
+    <text x="640" y="1480" fill="#9a9a9e" font-size="14">CSS</text>
+    <rect x="770" y="1468" width="220" height="4" rx="2" fill="#1d1d20"/>
+    <rect x="770" y="1468" width="14" height="4" rx="2" fill="#f4f4f5" opacity="0.44"/>
+    <text x="1168" y="1480" text-anchor="end" fill="#9a9a9e" font-size="13">6.4%</text>
+<line x1="32" y1="1508" x2="1168" y2="1508" stroke="#1d1d20" stroke-width="1"/>
+<text x="32" y="1532" fill="#7a7a80" font-size="12">Public data · updated daily · 21/09/2026, 14:44 MSK</text>
+  </g>
+</svg>

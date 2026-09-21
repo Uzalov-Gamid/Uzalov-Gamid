@@ -5,7 +5,8 @@ on:
     branches:
       - main
     paths:
-      - .github/workflows/terminal-metrics.yml
+      - .github/workflows/profile.yml
+      - scripts/generate-profile.mjs
   schedule:
     - cron: "17 3 * * *"
   workflow_dispatch:
@@ -14,7 +15,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: terminal-profile-metrics
+  group: github-profile
   cancel-in-progress: true
 
 jobs:
@@ -26,21 +27,21 @@ jobs:
       - name: Check out profile repository
         uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
 
-      - name: Generate GitHub stats
-        run: node scripts/generate-terminal-metrics.mjs
+      - name: Generate profile widget
+        run: node scripts/generate-profile.mjs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_USER: ${{ github.repository_owner }}
 
-      - name: Commit updated stats
+      - name: Commit updated profile
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/github-stats.svg
+          git add profile/profile.svg
           if git diff --cached --quiet; then
-            echo "GitHub stats are already up to date."
+            echo "Profile widget is already up to date."
             exit 0
           fi
-          git commit -m "chore: update GitHub profile stats"
+          git commit -m "chore: update profile widget"
           git push
