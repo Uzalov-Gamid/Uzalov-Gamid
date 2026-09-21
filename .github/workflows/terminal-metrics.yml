@@ -1,4 +1,4 @@
-name: Update terminal profile metrics
+name: Update GitHub profile stats
 
 on:
   push:
@@ -26,21 +26,21 @@ jobs:
       - name: Check out profile repository
         uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
 
-      - name: Generate terminal metrics
+      - name: Generate GitHub stats
         run: node scripts/generate-terminal-metrics.mjs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_USER: ${{ github.repository_owner }}
 
-      - name: Commit updated metrics
+      - name: Commit updated stats
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/terminal-dashboard.svg
+          git add profile/github-stats.svg
           if git diff --cached --quiet; then
-            echo "Terminal metrics are already up to date."
+            echo "GitHub stats are already up to date."
             exit 0
           fi
-          git commit -m "chore: update terminal profile metrics"
+          git commit -m "chore: update GitHub profile stats"
           git push

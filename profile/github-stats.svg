@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub statistics for Uzalov-Gamid</title>
+  <desc id="desc">Public repositories, followers, stars, forks, latest push and top languages.</desc>
+  <rect x="1" y="1" width="1198" height="278" rx="10" fill="#0b0b0d" stroke="#26262a" stroke-width="1"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">
+    <text x="32" y="40" fill="#7a7a80" font-size="12" font-weight="600" letter-spacing="2">GITHUB</text>
+    <line x1="32" y1="54" x2="1168" y2="54" stroke="#1d1d20" stroke-width="1"/>
+
+    <text x="32" y="98" fill="#9a9a9e" font-size="14">Owned repos</text>
+    <text x="360" y="98" fill="#f4f4f5" font-size="14" font-weight="600">10</text>
+    <text x="32" y="130" fill="#9a9a9e" font-size="14">Followers</text>
+    <text x="360" y="130" fill="#f4f4f5" font-size="14" font-weight="600">12</text>
+    <text x="32" y="162" fill="#9a9a9e" font-size="14">Stars received</text>
+    <text x="360" y="162" fill="#f4f4f5" font-size="14" font-weight="600">3</text>
+    <text x="32" y="194" fill="#9a9a9e" font-size="14">Forks</text>
+    <text x="360" y="194" fill="#f4f4f5" font-size="14" font-weight="600">0</text>
+    <text x="32" y="226" fill="#9a9a9e" font-size="14">Latest push</text>
+    <text x="360" y="226" fill="#f4f4f5" font-size="14" font-weight="600">linux-admin-toolkit · 2026-08-25</text>
+
+    <text x="640" y="98" fill="#9a9a9e" font-size="14">Python</text>
+    <rect x="840" y="86" width="260" height="4" rx="2" fill="#1d1d20"/>
+    <rect x="840" y="86" width="176" height="4" rx="2" fill="#f4f4f5" opacity="1.00"/>
+    <text x="1168" y="98" text-anchor="end" fill="#9a9a9e" font-size="13">67.8%</text>
+    <text x="640" y="130" fill="#9a9a9e" font-size="14">Nix</text>
+    <rect x="840" y="118" width="260" height="4" rx="2" fill="#1d1d20"/>
+    <rect x="840" y="118" width="29" height="4" rx="2" fill="#f4f4f5" opacity="0.86"/>
+    <text x="1168" y="130" text-anchor="end" fill="#9a9a9e" font-size="13">11.2%</text>
+    <text x="640" y="162" fill="#9a9a9e" font-size="14">HTML</text>
+    <rect x="840" y="150" width="260" height="4" rx="2" fill="#1d1d20"/>
+    <rect x="840" y="150" width="18" height="4" rx="2" fill="#f4f4f5" opacity="0.72"/>
+    <text x="1168" y="162" text-anchor="end" fill="#9a9a9e" font-size="13">7.1%</text>
+    <text x="640" y="194" fill="#9a9a9e" font-size="14">Shell</text>
+    <rect x="840" y="182" width="260" height="4" rx="2" fill="#1d1d20"/>
+    <rect x="840" y="182" width="17" height="4" rx="2" fill="#f4f4f5" opacity="0.58"/>
+    <text x="1168" y="194" text-anchor="end" fill="#9a9a9e" font-size="13">6.7%</text>
+    <text x="640" y="226" fill="#9a9a9e" font-size="14">CSS</text>
+    <rect x="840" y="214" width="260" height="4" rx="2" fill="#1d1d20"/>
+    <rect x="840" y="214" width="17" height="4" rx="2" fill="#f4f4f5" opacity="0.44"/>
+    <text x="1168" y="226" text-anchor="end" fill="#9a9a9e" font-size="13">6.4%</text>
+    <line x1="32" y1="238" x2="1168" y2="238" stroke="#1d1d20" stroke-width="1"/>
+    <text x="32" y="262" fill="#7a7a80" font-size="12">Public data · updated daily · 21/09/2026, 14:26 MSK</text>
+  </g>
+</svg>

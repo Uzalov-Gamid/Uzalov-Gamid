@@ -6,7 +6,7 @@ const api = "https://api.github.com";
 
 const headers = {
   Accept: "application/vnd.github+json",
-  "User-Agent": "github-profile-terminal-metrics",
+  "User-Agent": "github-profile-stats",
   "X-GitHub-Api-Version": "2022-11-28",
   ...(token ? { Authorization: `Bearer ${token}` } : {}),
 };
@@ -78,7 +78,7 @@ for (const set of languageSets) {
 const totalBytes = [...languages.values()].reduce((sum, bytes) => sum + bytes, 0);
 const topLanguages = [...languages.entries()]
   .sort((a, b) => b[1] - a[1])
-  .slice(0, 6)
+  .slice(0, 5)
   .map(([name, bytes]) => ({
     name,
     percent: totalBytes ? (bytes / totalBytes) * 100 : 0,
@@ -89,82 +89,62 @@ const forks = owned.reduce((sum, repository) => sum + repository.forks_count, 0)
 const latest = [...sourceRepos].sort(
   (a, b) => new Date(b.pushed_at) - new Date(a.pushed_at),
 )[0];
-const colors = ["#58a6ff", "#7ee787", "#d2a8ff", "#f2cc60", "#ff7b72", "#a5d6ff"];
+const latestText = latest ? `${short(latest.name)} · ${date(latest.pushed_at)}` : "no public pushes";
 
+const FONT = "-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif";
+const TEXT_PRIMARY = "#f4f4f5";
+const TEXT_SECONDARY = "#9a9a9e";
+const TEXT_LABEL = "#7a7a80";
+const DIVIDER = "#1d1d20";
+
+const statRows = [
+  ["Owned repos", owned.length],
+  ["Followers", profile.followers],
+  ["Stars received", stars],
+  ["Forks", forks],
+  ["Latest push", latestText],
+];
+
+const statLines = statRows
+  .map(([label, value], index) => {
+    const y = 98 + index * 32;
+    return `
+    <text x="32" y="${y}" fill="${TEXT_SECONDARY}" font-size="14">${escapeXml(label)}</text>
+    <text x="360" y="${y}" fill="${TEXT_PRIMARY}" font-size="14" font-weight="600">${escapeXml(String(value))}</text>`;
+  })
+  .join("");
+
+const barWidth = 260;
 const languageRows = topLanguages.length
   ? topLanguages
       .map(({ name, percent }, index) => {
-        const y = 139 + index * 31;
-        const blocks = Math.max(1, Math.round((percent / 100) * 18));
-        const bar = `${"#".repeat(blocks)}${".".repeat(18 - blocks)}`;
+        const y = 98 + index * 32;
+        const filled = Math.max(2, Math.round((percent / 100) * barWidth));
+        const opacity = (1 - index * 0.14).toFixed(2);
         return `
-    <text x="570" y="${y}" fill="${colors[index]}" font-size="15">${escapeXml(short(name.toUpperCase(), 12).padEnd(12))}</text>
-    <text x="700" y="${y}" fill="${colors[index]}" font-size="15">[${bar}]</text>
-    <text x="918" y="${y}" text-anchor="end" fill="#c9d1d9" font-size="14">${percent.toFixed(1).padStart(5)}%</text>`;
+    <text x="640" y="${y}" fill="${TEXT_SECONDARY}" font-size="14">${escapeXml(short(name, 14))}</text>
+    <rect x="840" y="${y - 12}" width="${barWidth}" height="4" rx="2" fill="${DIVIDER}"/>
+    <rect x="840" y="${y - 12}" width="${filled}" height="4" rx="2" fill="${TEXT_PRIMARY}" opacity="${opacity}"/>
+    <text x="1168" y="${y}" text-anchor="end" fill="${TEXT_SECONDARY}" font-size="13">${percent.toFixed(1)}%</text>`;
       })
       .join("")
-  : '<text x="570" y="139" fill="#8b949e" font-size="15">no public language data</text>';
+  : `<text x="640" y="98" fill="${TEXT_SECONDARY}" font-size="14">no public language data</text>`;
 
-const latestText = latest ? `${short(latest.name)} · ${date(latest.pushed_at)}` : "no public pushes";
-
-const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="340" viewBox="0 0 1000 340" role="img" aria-labelledby="title desc">
-  <title id="title">Live GitHub statistics for ${escapeXml(user)}</title>
-  <desc id="desc">A terminal showing public repositories, followers, stars, forks, latest push and languages.</desc>
-  <defs>
-    <linearGradient id="metricsBackground" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#070b12"/>
-      <stop offset="0.55" stop-color="#0d1522"/>
-      <stop offset="1" stop-color="#101c2c"/>
-    </linearGradient>
-    <linearGradient id="metricsBorder" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#3fb950"/>
-      <stop offset="0.5" stop-color="#58a6ff"/>
-      <stop offset="1" stop-color="#a371f7"/>
-    </linearGradient>
-    <pattern id="metricsScanlines" width="4" height="4" patternUnits="userSpaceOnUse">
-      <rect width="4" height="1" fill="#8b949e" opacity="0.04"/>
-    </pattern>
-  </defs>
-
-  <rect x="1" y="1" width="998" height="338" rx="20" fill="url(#metricsBackground)" stroke="url(#metricsBorder)" stroke-width="2"/>
-  <rect x="1" y="1" width="998" height="338" rx="20" fill="url(#metricsScanlines)"/>
-  <circle cx="30" cy="28" r="6" fill="#ff5f56"/>
-  <circle cx="50" cy="28" r="6" fill="#ffbd2e"/>
-  <circle cx="70" cy="28" r="6" fill="#27c93f"/>
-  <text x="500" y="33" text-anchor="middle" fill="#8b949e" font-size="14" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">gh-status --public</text>
-  <line x1="1" y1="52" x2="999" y2="52" stroke="#30363d"/>
-
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
-    <text x="48" y="91" fill="#58a6ff" font-size="16">${escapeXml(user.toLowerCase())}@github:~$</text>
-    <text x="275" y="91" fill="#c9d1d9" font-size="16">gh api /users/${escapeXml(user)}</text>
-
-    <text x="48" y="132" fill="#8b949e" font-size="15">owned repos</text>
-    <text x="222" y="132" fill="#7ee787" font-size="15">${owned.length}</text>
-    <text x="48" y="164" fill="#8b949e" font-size="15">followers</text>
-    <text x="222" y="164" fill="#7ee787" font-size="15">${profile.followers}</text>
-    <text x="48" y="196" fill="#8b949e" font-size="15">stars received</text>
-    <text x="222" y="196" fill="#7ee787" font-size="15">${stars}</text>
-    <text x="48" y="228" fill="#8b949e" font-size="15">forks</text>
-    <text x="222" y="228" fill="#7ee787" font-size="15">${forks}</text>
-    <text x="48" y="260" fill="#8b949e" font-size="15">latest push</text>
-    <text x="222" y="260" fill="#f2cc60" font-size="15">${escapeXml(latestText)}</text>
-
-    <text x="570" y="91" fill="#58a6ff" font-size="16">${escapeXml(user.toLowerCase())}@github:~$</text>
-    <text x="800" y="91" fill="#c9d1d9" font-size="16">languages --top 6</text>
+const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub statistics for ${escapeXml(user)}</title>
+  <desc id="desc">Public repositories, followers, stars, forks, latest push and top languages.</desc>
+  <rect x="1" y="1" width="1198" height="278" rx="10" fill="#0b0b0d" stroke="#26262a" stroke-width="1"/>
+  <g font-family="${FONT}">
+    <text x="32" y="40" fill="${TEXT_LABEL}" font-size="12" font-weight="600" letter-spacing="2">GITHUB</text>
+    <line x1="32" y1="54" x2="1168" y2="54" stroke="${DIVIDER}" stroke-width="1"/>
+${statLines}
 ${languageRows}
-
-    <text x="48" y="315" fill="#484f58" font-size="12">public data · updated daily · ${timestamp()} MSK</text>
-    <rect x="931" y="301" width="10" height="17" rx="1" fill="#58a6ff">
-      <animate attributeName="opacity" values="1;1;0;0" dur="1s" repeatCount="indefinite"/>
-    </rect>
+    <line x1="32" y1="238" x2="1168" y2="238" stroke="${DIVIDER}" stroke-width="1"/>
+    <text x="32" y="262" fill="${TEXT_LABEL}" font-size="12">Public data · updated daily · ${timestamp()} MSK</text>
   </g>
-
-  <rect x="18" y="58" width="964" height="2" fill="#58a6ff" opacity="0.13">
-    <animate attributeName="y" values="58;322;58" dur="7s" repeatCount="indefinite"/>
-  </rect>
 </svg>
 `;
 
 await mkdir("profile", { recursive: true });
-await writeFile("profile/terminal-dashboard.svg", svg, "utf8");
-console.log(`Generated terminal metrics for ${user}`);
+await writeFile("profile/github-stats.svg", svg, "utf8");
+console.log(`Generated GitHub stats for ${user}`);

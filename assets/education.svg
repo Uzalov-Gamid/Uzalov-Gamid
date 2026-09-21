@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="152" viewBox="0 0 1200 152" role="img" aria-labelledby="title desc">
+  <title id="title">Образование</title>
+  <desc id="desc">Education background.</desc>
+  <rect x="1" y="1" width="1198" height="150" rx="10" fill="#0b0b0d" stroke="#26262a" stroke-width="1"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">
+    <text x="32" y="40" fill="#7a7a80" font-size="12" font-weight="600" letter-spacing="2">ОБРАЗОВАНИЕ</text>
+    <line x1="32" y1="54" x2="1168" y2="54" stroke="#1d1d20" stroke-width="1"/>
+    <text x="32" y="90" fill="#d4d4d6" font-size="17">Школа 21 от Сбера — направление DevOps/Linux, с 2025 года</text>
+    <text x="32" y="122" fill="#d4d4d6" font-size="17">Колледж мировой экономики и передовых технологий — ИСиП, выпуск 2028</text>
+  </g>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="264" viewBox="0 0 1200 264" role="img" aria-labelledby="title desc">
+  <title id="title">Технологии</title>
+  <desc id="desc">Technology stack grouped by area.</desc>
+  <rect x="1" y="1" width="1198" height="262" rx="10" fill="#0b0b0d" stroke="#26262a" stroke-width="1"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">
+    <text x="32" y="40" fill="#7a7a80" font-size="12" font-weight="600" letter-spacing="2">СТЕК</text>
+    <line x1="32" y1="54" x2="1168" y2="54" stroke="#1d1d20" stroke-width="1"/>
+
+    <text x="32" y="98" fill="#d4d4d6" font-size="15" font-weight="600">SYSTEMS</text>
+    <text x="280" y="98" fill="#9a9a9e" font-size="16">Linux · systemd · SSH · TCP/IP · DNS</text>
+    <line x1="32" y1="121" x2="1168" y2="121" stroke="#1d1d20" stroke-width="1"/>
+
+    <text x="32" y="144" fill="#d4d4d6" font-size="15" font-weight="600">AUTOMATION</text>
+    <text x="280" y="144" fill="#9a9a9e" font-size="16">Bash · Python · Git · CI/CD</text>
+    <line x1="32" y1="167" x2="1168" y2="167" stroke="#1d1d20" stroke-width="1"/>
+
+    <text x="32" y="190" fill="#d4d4d6" font-size="15" font-weight="600">PLATFORM</text>
+    <text x="280" y="190" fill="#9a9a9e" font-size="16">Docker · Docker Compose · Kubernetes</text>
+    <line x1="32" y1="213" x2="1168" y2="213" stroke="#1d1d20" stroke-width="1"/>
+
+    <text x="32" y="236" fill="#d4d4d6" font-size="15" font-weight="600">DATA &amp; OBS</text>
+    <text x="280" y="236" fill="#9a9a9e" font-size="16">PostgreSQL · SQL · Prometheus · Grafana</text>
+  </g>
+</svg>
