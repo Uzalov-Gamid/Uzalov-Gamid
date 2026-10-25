@@ -56,7 +56,7 @@
 <text x="32" y="1429" fill="#828288" font-size="13" font-weight="600" letter-spacing="2">GITHUB</text>
 <line x1="32" y1="1445" x2="1168" y2="1445" stroke="#1d1d20" stroke-width="1"/>
 <text x="32" y="1491" fill="#9a9a9e" font-size="16">Owned repos</text>
-<text x="360" y="1491" fill="#f4f4f5" font-size="16" font-weight="600">12</text>
+<text x="360" y="1491" fill="#f4f4f5" font-size="16" font-weight="600">13</text>
 <text x="32" y="1525" fill="#9a9a9e" font-size="16">Followers</text>
 <text x="360" y="1525" fill="#f4f4f5" font-size="16" font-weight="600">16</text>
 <text x="32" y="1559" fill="#9a9a9e" font-size="16">Stars received</text>
@@ -64,29 +64,29 @@
 <text x="32" y="1593" fill="#9a9a9e" font-size="16">Forks</text>
 <text x="360" y="1593" fill="#f4f4f5" font-size="16" font-weight="600">0</text>
 <text x="32" y="1627" fill="#9a9a9e" font-size="16">Latest push</text>
-<text x="360" y="1627" fill="#f4f4f5" font-size="16" font-weight="600">sport-club · 2026-10-23</text>
+<text x="360" y="1627" fill="#f4f4f5" font-size="16" font-weight="600">sport-club · 2026-10-24</text>
 
     <text x="640" y="1491" fill="#9a9a9e" font-size="16">Python</text>
     <rect x="770" y="1478" width="220" height="4" rx="2" fill="#1d1d20"/>
-    <rect x="770" y="1478" width="105" height="4" rx="2" fill="#f4f4f5" opacity="1.00"/>
-    <text x="1168" y="1491" text-anchor="end" fill="#9a9a9e" font-size="15">47.6%</text>
+    <rect x="770" y="1478" width="107" height="4" rx="2" fill="#f4f4f5" opacity="1.00"/>
+    <text x="1168" y="1491" text-anchor="end" fill="#9a9a9e" font-size="15">48.5%</text>
     <text x="640" y="1525" fill="#9a9a9e" font-size="16">Lua</text>
     <rect x="770" y="1512" width="220" height="4" rx="2" fill="#1d1d20"/>
-    <rect x="770" y="1512" width="35" height="4" rx="2" fill="#f4f4f5" opacity="0.86"/>
-    <text x="1168" y="1525" text-anchor="end" fill="#9a9a9e" font-size="15">16.0%</text>
-    <text x="640" y="1559" fill="#9a9a9e" font-size="16">GLSL</text>
+    <rect x="770" y="1512" width="30" height="4" rx="2" fill="#f4f4f5" opacity="0.86"/>
+    <text x="1168" y="1525" text-anchor="end" fill="#9a9a9e" font-size="15">13.6%</text>
+    <text x="640" y="1559" fill="#9a9a9e" font-size="16">HTML</text>
     <rect x="770" y="1546" width="220" height="4" rx="2" fill="#1d1d20"/>
-    <rect x="770" y="1546" width="22" height="4" rx="2" fill="#f4f4f5" opacity="0.72"/>
-    <text x="1168" y="1559" text-anchor="end" fill="#9a9a9e" font-size="15">10.1%</text>
-    <text x="640" y="1593" fill="#9a9a9e" font-size="16">Shell</text>
+    <rect x="770" y="1546" width="27" height="4" rx="2" fill="#f4f4f5" opacity="0.72"/>
+    <text x="1168" y="1559" text-anchor="end" fill="#9a9a9e" font-size="15">12.3%</text>
+    <text x="640" y="1593" fill="#9a9a9e" font-size="16">GLSL</text>
     <rect x="770" y="1580" width="220" height="4" rx="2" fill="#1d1d20"/>
-    <rect x="770" y="1580" width="20" height="4" rx="2" fill="#f4f4f5" opacity="0.58"/>
-    <text x="1168" y="1593" text-anchor="end" fill="#9a9a9e" font-size="15">9.3%</text>
-    <text x="640" y="1627" fill="#9a9a9e" font-size="16">HTML</text>
+    <rect x="770" y="1580" width="19" height="4" rx="2" fill="#f4f4f5" opacity="0.58"/>
+    <text x="1168" y="1593" text-anchor="end" fill="#9a9a9e" font-size="15">8.5%</text>
+    <text x="640" y="1627" fill="#9a9a9e" font-size="16">Shell</text>
     <rect x="770" y="1614" width="220" height="4" rx="2" fill="#1d1d20"/>
-    <rect x="770" y="1614" width="15" height="4" rx="2" fill="#f4f4f5" opacity="0.44"/>
-    <text x="1168" y="1627" text-anchor="end" fill="#9a9a9e" font-size="15">6.9%</text>
+    <rect x="770" y="1614" width="17" height="4" rx="2" fill="#f4f4f5" opacity="0.44"/>
+    <text x="1168" y="1627" text-anchor="end" fill="#9a9a9e" font-size="15">7.9%</text>
 <line x1="32" y1="1655" x2="1168" y2="1655" stroke="#1d1d20" stroke-width="1"/>
-<text x="32" y="1681" fill="#828288" font-size="13">Public data · updated daily · 24/10/2026, 11:06 MSK</text>
+<text x="32" y="1681" fill="#828288" font-size="13">Public data · updated daily · 25/10/2026, 11:24 MSK</text>
   </g>
 </svg>
