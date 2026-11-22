@@ -150,16 +150,16 @@ y += 88 + (stackRows.length - 1) * STACK_ROW + 42;
 label("PROJECTS");
 const groups = [
   ["LINUX", [
-    ["linux-challenge-lab", "Ubuntu lab environment for administration practice"],
     ["linux-admin-toolkit", "Backups, disk/process reports, access-log analysis"],
+    ["vpnguard", "VPN diagnostics, routing checks and automated recovery on macOS"],
   ]],
   ["INFRASTRUCTURE & DEVOPS", [
     ["fastapi-monitoring-stack", "Application with Prometheus metrics and a Grafana dashboard"],
     ["k8s-mini-lab", "FastAPI on Kubernetes: ConfigMap, Secret, Service, Ingress, CI"],
     ["devops-lab", "Backend on PostgreSQL, Redis and nginx behind Docker Compose"],
   ]],
-  ["BACKEND", [
-    ["doit", "Django application with PostgreSQL, Docker Compose, tests and CI"],
+  ["DEVELOPER ENVIRONMENT", [
+    ["houston", "Reproducible macOS setup for terminal and tiling workflows"],
   ]],
 ];
 
